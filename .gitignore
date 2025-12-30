@@ -1,0 +1,41 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Секреты
+.env
+.env.local
+.env.*.local
+
+# Python байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+
+# F1/ML специфичные
+cache/
+.fastf1/
+data/raw/*.csv  # большие сырые данные
+models/*.pkl    # обученные модели (опционально)
+notebooks/*.ipynb_checkpoints/
+
+# Логи и кэш
+*.log
+.cache/
+.ipynb_checkpoints/
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Тесты/покрытие
+.coverage
+htmlcov/
