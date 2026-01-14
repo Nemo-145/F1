@@ -8,3 +8,5 @@ mlflow
 ipykernel
 plotly  
 streamlit
+nbformat
+statsmodels
