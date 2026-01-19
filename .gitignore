@@ -25,6 +25,10 @@ notebooks/*.ipynb_checkpoints/
 .cache/
 .ipynb_checkpoints/
 logs/
+mlruns/
+catboost_info/
+mlflow.db
+data/raw/all_races_2022_2025.csv
 
 # IDE
 .idea/

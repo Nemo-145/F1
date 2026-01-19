@@ -26,6 +26,7 @@ REPORTS_DIR: Path = PROJECT_ROOT / "reports"
 CACHE_DIR: Path = PROJECT_ROOT / "cache"
 LOGS_DIR: Path = PROJECT_ROOT / "logs"
 
+
 # ML / обучение
 TEST_SIZE: float = 0.2
 RANDOM_STATE: int = 42

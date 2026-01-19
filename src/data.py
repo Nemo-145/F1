@@ -9,7 +9,7 @@ def get_race_results(year: int, grand_prix: str) -> pd.DataFrame:
     session = fastf1.get_session(year, grand_prix, SessionTypes.RACE.value)
     session.load(laps=False, telemetry=False, weather=False, messages=False)
     results = session.results
-    results_df = results[['Position', 'GridPosition', 'FullName', 'TeamName', 'Status', 'Points']].copy()
+    results_df = results[['Position', 'GridPosition', 'FullName', 'TeamName', 'Status', 'Points', 'ClassifiedPosition', 'Laps', 'Time']].copy()
     results_df['Year'] = year
     results_df['Grand Prix'] = grand_prix
     return results_df

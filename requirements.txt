@@ -10,3 +10,5 @@ plotly
 streamlit
 nbformat
 statsmodels
+catboost
+xgboost
