@@ -43,3 +43,5 @@ Thumbs.db
 # Тесты/покрытие
 .coverage
 htmlcov/
+
+src/test.py
